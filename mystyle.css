@@ -16,3 +16,8 @@ a:hover{
 a:active {
    color:blue;
 }
+/* Style of bullets is square */
+
+/*copyright format*/
+#footer 
+{font-size: small;}
