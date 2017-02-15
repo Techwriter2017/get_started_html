@@ -24,7 +24,7 @@ nav {
 }
 article {
    border: 1px;
-   border-style: solidl
+   border-style: solid;
    border-color: blue;
    padding: 10pt;
    margin: 10pt
@@ -33,6 +33,21 @@ article {
 article header {
    font-style: italic;
 }
+article p {
+    margin-left: 20pt;
+}
+aside {
+   display: inline-block;
+   width: 40%;
+   vertical-align: top;
+   margin-top: 20;
+   margin-left: 20pt;
+}
+
+aside h2 {
+   font-size:16pt;
+}
+
 /* Style of bullets is square */
 
 /*copyright format*/
