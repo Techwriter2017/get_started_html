@@ -36,6 +36,15 @@ article header {
 article p {
     margin-left: 20pt;
 }
+
+#article1 p {
+    background-color: gray;  
+}
+
+#article1 p {
+   color:white;
+   
+}
 aside {
    display: inline-block;
    width: 40%;
