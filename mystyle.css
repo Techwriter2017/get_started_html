@@ -22,6 +22,17 @@ nav {
    border-style: solid;
    background-color: purple;
 }
+
+nav p {
+   text-align:left;
+   line-height: 1pt;
+}
+   
+section h1 {
+   margin-top: 40pt;
+   text-align: center;
+}
+
 article {
    border: 1px;
    border-style: solid;
@@ -56,7 +67,9 @@ aside {
 aside h2 {
    font-size: 16pt;
 }
-
+.quotation p {
+   font-style: italic;
+}
 /* Style of bullets is square */
 
 /*copyright format*/
