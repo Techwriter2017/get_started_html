@@ -1,11 +1,11 @@
 /*unvisited link */
 a:link {
-   color:red;
+   color:black;
 }
 
 /*visited link */
 a:visited {
-   color:green;
+   color:black;
 }
 
 /*mouse overlink*/
@@ -16,27 +16,40 @@ a:hover{
 a:active {
    color:blue;
 }
+
+body{
+   font-family: Arial, sans-serif;
+}
 nav {
-   color: blue;
+   color: gray;
    border: 1px;
    border-style: solid;
-   background-color: purple;
+   background-color: lightblue;
+   margin-top:20pt;
+   padding: 10pt;
+   margin: 10pt;
 }
 
 nav p {
-   text-align:left;
+   color: white;
+   text-align: left;
    line-height: 1pt;
+   padding: 10pt;
+   margin: 10pt;
 }
    
-section h1 {
-   margin-top: 40pt;
-   text-align: center;
+section h1, h2 {
+   margin-top: 20pt;
+   text-align: left;
+   font-style:italic;
+   margin: 10pt;
+   margin-left:20pt;
 }
 
 article {
    border: 1px;
    border-style: solid;
-   border-color: blue;
+   border-color: gray;
    padding: 10pt;
    margin: 10pt;
 }
@@ -49,28 +62,51 @@ article p {
 }
 
 #article1 {
-    background-color: gray;  
+    background-color: lightblue;  
+}
+
+
+#article2 {
+    background-color: lightblue;  
 }
 
 #article1 p {
    color:white;
-   
-}
+   background-color: lightblue;
+   }
+
+#article2 p {
+   color:white;
+   background-color: lightblue;
+   }
+
 aside {
    display: inline-block;
    width: 40%;
    vertical-align: top;
    margin-top: 20pt;
    margin-left: 20pt;
+   border: 1px;
+   border-style: solid;
+   border-color: gray;
+   padding: 10pt;
+   margin: 10pt;
+   background-color: lightblue;
 }
 
 aside h2 {
    font-size: 16pt;
 }
+ 
+aside p {
+ color:white;
+}
+
 .quotation p {
    font-style: italic;
 }
-/* Style of bullets is square */
+
+
 
 /*copyright format*/
 #footer 
